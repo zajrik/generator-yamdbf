@@ -1,7 +1,7 @@
 {
   "name": "generator-yamdbf",
   "version": "1.0.0",
-  "description": "Generate base files necessary for creating Discord.js bots using YAMDBF",
+  "description": "Easily generate base files necessary for creating Discord.js bots using YAMDBF",
   "homepage": "",
   "author": {
     "name": "Zack Campbell",

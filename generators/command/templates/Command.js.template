@@ -1,0 +1,27 @@
+'use strict';
+let Command = require('yamdbf').Command;
+
+exports.default = class <%= className %> extends Command
+{
+	constructor(bot)
+	{
+		super(bot, {
+			name: '<%= name %>',
+			aliases: [<%- aliases %>],
+			description: '<%= description %>',
+			usage: '<prefix><%= usage %>',
+			extraHelp: '',
+			group: '<%= group %>',
+			guildOnly: <%= guildOnly %>,
+			argOpts: { stringArgs: false, separator: ' ' },
+			permissions: [],
+			roles: [],
+			ownerOnly: <%= ownerOnly %>
+		});
+	}
+
+	action(message, args, mentions, original) // eslint-disable-line no-unused-vars
+	{
+		console.log('<%= className %> command called');
+	}
+};

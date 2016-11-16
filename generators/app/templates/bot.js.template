@@ -1,0 +1,17 @@
+'use strict';
+const Bot = require('yamdbf').Bot;
+const config = require('./config.json');
+const path = require('path');
+
+const bot = new Bot({
+    name: '<%= name %>',
+    token: config.token,
+    config: config,
+    selfbot: <%= selfbot %>,
+    version: '<%= version %>',
+    statusText: <%= statusText %>,
+    commandsDir: path.join(__dirname, 'commands'),
+	disableBase: [<%- disableBase %>]
+})
+.setDefaultSetting('prefix', '<%= prefix %>')
+.start();

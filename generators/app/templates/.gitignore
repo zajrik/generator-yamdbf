@@ -1,0 +1,8 @@
+/node_modules/*
+/bin/*
+/typings/*
+/.vscode/*
+/storage/*
+config.json
+npm-debug*
+yarn*

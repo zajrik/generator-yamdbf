@@ -106,7 +106,7 @@ module.exports = yeoman.Base.extend({
 			}
 		);
 		this.fs.copyTpl(
-			this.templatePath('.gitignore'),
+			this.templatePath('gitignore.template'),
 			this.destinationPath('.gitignore'));
 		mkdirp.sync('./src/commands/');
 	},

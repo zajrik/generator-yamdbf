@@ -1,3 +1,5 @@
+## This generator is out of date and is NOT compatible with YAMDBF 3.0.0. An update will come sometime after I get back from vacation.
+
 # generator-yamdbf [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > Easily generate base files necessary for creating Discord.js bots using YAMDBF
 
